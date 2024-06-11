@@ -1,38 +1,53 @@
 .App {
   text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 21px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: #c6ae82;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+button {
+  padding: 10px 20px;
+  margin: 20px;
+  font-size: 16px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.build {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.armor {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 8px;
+  max-width: 300px;
+  margin: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.weapon {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 8px;
+  max-width: 300px;
+  margin: 10px;
+}
+
+.talisman {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 8px;
+  max-width: 300px;
+  margin: 10px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
 }
